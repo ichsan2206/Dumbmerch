@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    background-color: black !important;
+}
+
+.btnRegister {
+background-color: black !important;
+color: white;
+}
+
+.btnLogin{
+background-color: black !important;
+color: white;
+}
+
+.btnLogin:focus{
+    background-color: #F74D4D !important;
+    border-radius: 5px;
+}
+
+.btnLogin:active{
+    background-color: #F74D4D !important;
+    border-radius: 5px;
+}
+
+.btnRegister:active{
+    background-color: #F74D4D !important;
+    border-radius: 5px;
+}
+
+.btnRegister:focus{
+    background-color: #F74D4D !important;
+    border-radius: 5px;
+}
