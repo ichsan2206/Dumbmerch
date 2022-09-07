@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "dumbmerch",
-    "host": "localhost",
+    "password": "WoLyiE2uEycPqlwKax4a",
+    "port": 6544,
+    "database": "railway",
+    "host": "containers-us-west-76.railway.app",
     "dialect": "mysql"
   },
   "test": {

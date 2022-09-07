@@ -305,7 +305,7 @@ const sendEmail = async (status, transactionId) => {
     // Email options content
     const mailOptions = {
       from: process.env.SYSTEM_EMAIL,
-      to: data.buyer.email,
+      to: data.buyer?.email,
       subject: "Payment status",
       text: "Your payment is <br />" + status,
       html: `<!DOCTYPE html>
